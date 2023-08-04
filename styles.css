@@ -35,6 +35,7 @@
     margin-top: 50px;
     align-items: center;
     justify-content: center;
+    height:500px;
 }
 
 .top-image {
@@ -51,4 +52,70 @@
     height: auto;
     align-items: center;
     justify-content: center;
+}
+
+.mid-section-image-cont {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.mid-section-image-cont img{
+    width:200px;
+    height: auto;
+    border-radius: 15px;
+    border: 4px solid white;
+}
+
+.mid-section-title {
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-section-header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+.mid-section {
+    background-image: linear-gradient(to right, #11161c,#2f3c4a);
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+}
+
+.mid-section-image-cont {
+    color:white;
+    text-align: center;
+}
+
+.bottom-quote-section {
+    height: 500px;
+    background-image: url(images/showusyourrock.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.quote-section {
+    display:flex;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 9px black;
+}
+
+.quotee {
+    font-size: 25px;
+    text-align: end;
+    padding: 20px;
+    margin-right: 100px;
+    font-weight: 600;
 }
